@@ -44,4 +44,10 @@ io.on('connection', function (socket) {
         });
     });
 
+    socket.on('listar_mensajes', function (json) {
+        dao.selectMensajes(function (err, mensajes) {
+            socket.emit('mensajes', mensajes);
+        });
+    });
+
 });

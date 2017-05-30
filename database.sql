@@ -15,3 +15,9 @@ CREATE TABLE IF NOT EXISTS mensajes(
     mensaje VARCHAR(500),
     created_at TIMESTAMP NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS dispositivos(
+  id_dispositivo INT PRIMARY KEY AUTO_INCREMENT,
+    token VARCHAR(300),
+    created_at TIMESTAMP NOT NULL
+);

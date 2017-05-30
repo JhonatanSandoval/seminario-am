@@ -50,3 +50,13 @@ exports.insertMensaje = function (nombres, mensaje, callback) {
         });
     });
 };
+
+exports.selectMensajes = function (callback) {
+    pool.getConnection(function (err, conn) {
+        var sql = ' SELECT * FROM mensajes ';
+        conn.query(sql, [], function (err, rs) {
+            conn.release();
+            callback(err, rs);
+        });
+    });
+};
