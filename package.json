@@ -1,0 +1,26 @@
+{
+  "name": "seminario-am",
+  "version": "0.1.0",
+  "description": "Seminario para los grupos de Academia Moviles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonatanSandoval/seminario-am.git"
+  },
+  "keywords": [
+    "seminario",
+    "am",
+    "android",
+    "socket",
+    "realtime"
+  ],
+  "author": "Jhonatan Sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonatanSandoval/seminario-am/issues"
+  },
+  "homepage": "https://github.com/JhonatanSandoval/seminario-am#readme"
+}
