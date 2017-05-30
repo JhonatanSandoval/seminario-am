@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/JhonatanSandoval/seminario-am/issues"
   },
-  "homepage": "https://github.com/JhonatanSandoval/seminario-am#readme"
+  "homepage": "https://github.com/JhonatanSandoval/seminario-am#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.0.1"
+  }
 }
